@@ -30,11 +30,11 @@ jobs:
         prerelease: false
 
     - name: download macos app artifacts
-      uses: actions/download-artifact@v1
+      uses: actions/download-artifact@v4.1.7
       with:
         name: macos-app
     - name: download windows app artifacts
-      uses: actions/download-artifact@v1
+      uses: actions/download-artifact@v4.1.7
       with:
         name: windows-app
 
